@@ -14,6 +14,7 @@ pip install -r requirements.txt
 
 Data preprocessing:
 If you have full content data data, it should look like this in the folder
+```
 --orig_data
     -train *
     -test *
@@ -26,6 +27,7 @@ If you have full content data data, it should look like this in the folder
     -sortDataWithLabel.py
     -dataUpper.py
     -cut.py
+```
 
 ```
 // Build a folder to save face alignment results
