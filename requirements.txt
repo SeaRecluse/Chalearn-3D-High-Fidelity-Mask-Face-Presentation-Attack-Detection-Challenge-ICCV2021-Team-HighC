@@ -6,3 +6,4 @@ matplotlib
 numpy
 opencv_python
 sklearn
+skimage

@@ -14,7 +14,6 @@ pip install -r requirements.txt
 
 Data preprocessing:
 If you have full content data data, it should look like this in the folder
-```
 --orig_data
     -train *
     -test *
@@ -27,7 +26,7 @@ If you have full content data data, it should look like this in the folder
     -sortDataWithLabel.py
     -dataUpper.py
     -cut.py
-```
+    -detect_face_wIth_align
 
 ```
 // Build a folder to save face alignment results
@@ -35,6 +34,7 @@ If you have full content data data, it should look like this in the folder
 use getFacesList.py
 
 // we use retinaface .25 to detect face and do face align
+use main.py in /orig_data/detect_face_wIth_align
 
 // Integrate your face alignment data
 use sortDataWithLabel.py
