@@ -12,6 +12,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+```
 Data preprocessing:
 If you have full content data data, it should look like this in the folder
 --orig_data
@@ -27,6 +28,7 @@ If you have full content data data, it should look like this in the folder
     -dataUpper.py
     -cut.py
     -detect_face_wIth_align
+```
 
 ```
 // Build a folder to save face alignment results
